@@ -5,7 +5,7 @@ class CreateSongBar extends Component {
   render() {
     return (
       <div className="create-song-bar">
-        <input className="form-control" placeholder="create new song"></input>
+        <input type="text" className="form-control" placeholder="create new song"></input>
       </div>
     );
   }

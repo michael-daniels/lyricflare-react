@@ -1,6 +1,17 @@
 .form-control {
   text-align: center;
   color:red;
+  outline: none;
+}
+input:focus{
+  outline: lightgreen;
+  box-shadow:0px 0px 1px 1px lightgreen !important;
+  border:1px solid #ccc !important;
+}
+input {
+outline: 0;
+box-shadow:none !important;
+border:1px solid #ccc !important;
 }
 .navbarr {
   background-color:lightgreen;

@@ -1,25 +1,39 @@
-.navbar {
+.form-control {
+  text-align: center;
+  color:red;
+}
+.navbarr {
   background-color:lightgreen;
   box-shadow: 1px 1px 1px gray;
-  padding: 4vh 10vw;
+  padding: 2vh 10vw;
   display: flex;
   color:white;
 }
 .logo {
   flex: 1;
-  font-size:24px;
+  font-size:28px;
 }
 .hello-user {
   margin-top:5px;
 }
+.create-song-bar {
+  padding:25px 0;
+}
+.single-card-list {
+  margin: 0 auto;
+  padding: 0px 0vw;
+}
 .single-card {
-  background-color: #f2f2f2;
-  padding: 15px;
-  margin:25px 25px;
+  background-color: #fcfcfc;
+  padding: 25px;
+  margin:15px 5px;
   text-align: center;
   box-shadow: 1px 1px 1px silver;
   border-radius: 5px;
 }
-.card-img {
-  max-width:400px;
+.single-card > div > h4 {
+  color:gray;
+}
+.single-card > div > p {
+  color:silver;
 }

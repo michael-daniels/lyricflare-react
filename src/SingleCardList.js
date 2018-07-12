@@ -11,7 +11,7 @@ class SingleCardList extends Component {
     console.log(allCards)
 
     return (
-      <div className="row">
+      <div className="single-card-list row">
         {allCards}
       </div>
     );
